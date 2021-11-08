@@ -13,6 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "homepage": "https://posokhin-dmitry.github.io/goit-react-hw-01-components",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
