@@ -1,0 +1,29 @@
+.table {
+  border: 1px solid rgb(0, 0, 0);
+  table-layout: fixed;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 15px;
+  background: #9859e0;
+  /* border: 1px solid #000000; */
+  color: #fff;
+}
+
+.table td {
+  padding: 15px;
+  /* border: 1px solid #eee; */
+  text-align: center;
+  color: #737478;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #ecf1f4;
+}

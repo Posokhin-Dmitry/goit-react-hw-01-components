@@ -1,0 +1,24 @@
+.friendList {
+  padding: 0px;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.item {
+  width: 400px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ebebeb;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 100px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 500;
+}
