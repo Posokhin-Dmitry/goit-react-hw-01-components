@@ -24,12 +24,6 @@
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,8 +39,5 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
-  },
-  "devDependencies": {
-    "prettier-eslint": "^13.0.0"
-  }
+  }  
 }
