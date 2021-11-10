@@ -22,3 +22,26 @@
   font-size: 30px;
   font-weight: 500;
 }
+
+.nameSection {
+  display: flex;
+}
+
+.status {
+  display: inline-block;
+  align-self: center;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
